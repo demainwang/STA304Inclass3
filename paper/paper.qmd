@@ -1,12 +1,11 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Marriage Statistic"
 author: 
-  - Rohan Alexander
+  - Yitong Wang
 thanks: "Code and data are available at: LINK."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "The article is the data analysis for toronto marriage license, sctter plot included."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -26,7 +25,7 @@ data <- read_csv(here::here("data/analysis_data/analysis_data.csv"))
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. We use @talia, @opendatatorotno, and @rohan.
+We analysis the data of marriage license in Canada. We use @talia, @opendatatorotno, and @rohan.
 
 The remainder of this paper is structured as follows. @sec-mydatasection
 
@@ -46,12 +45,7 @@ data |>
   geom_point()
 
 ```
-
-Talk more about it.
-
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
-
-
+The scatter plot shows the relationship between the observation.
 
 
 
@@ -63,11 +57,15 @@ If my paper were 10 pages, then should be be at least 2.5 pages. The discussion 
 
 ## Second discussion point
 
+Economic ups and downs, along with legal tweaks, really shake up how many folks decide to tie the knot. Spotting these trends helps us see how money and laws play into marriage decisions.
+
 ## Third discussion point
+
+Comparing today’s marriage trends with past data shows how younger folks view marriage differently now. This shift might reflect broader changes in how we see relationships and commitments.
 
 ## Weaknesses and next steps
 
-Weaknesses and next steps should also be included.
+Pointing out where our data might be off helps make our research more trust worthy. In the future, we could look deeper into why people choose certain times of the year to get married by tracking it over time or using detailed personal stories. Adding info like age or where people live could also give us a fuller picture of marriage trends.
 
 \newpage
 

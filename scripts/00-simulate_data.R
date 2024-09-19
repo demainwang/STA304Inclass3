@@ -1,8 +1,8 @@
 #### Preamble ####
 # Purpose: Simulates data
-# Author: Rohan Alexander
+# Author: Yitong Wang
 # Date: 19 September 2024
-# Contact: rohan.alexander@utoronto.ca
+# Contact: stevenn.wang@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: None
 # Any other information needed? None
@@ -38,3 +38,4 @@ data <-
 
 #### Write_csv
 write_csv(data, file = "data/raw_data/simulated.csv")
+
